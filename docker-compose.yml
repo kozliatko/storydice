@@ -6,7 +6,7 @@ services:
       - default
       - caddy
     labels:
-      caddy: dice.kozliatko.sk
+      caddy: ${DOMAIN:?Set DOMAIN in .env}
       caddy.reverse_proxy: "{{upstreams}}"
       caddy.encode: gzip zstd
 

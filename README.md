@@ -78,9 +78,10 @@ docker run --rm -p 8080:80 story-dice
 
 ## Deployment
 
-The provided `docker-compose.yml` expects an external Docker network named `caddy` and a running caddy-docker-proxy instance. Replace the domain in the `caddy` label with your own and start the stack:
+The provided `docker-compose.yml` expects an external Docker network named `caddy` and a running caddy-docker-proxy instance. Copy `.env.example` to `.env`, set `DOMAIN` to your own domain and start the stack:
 
 ```sh
+cp .env.example .env          # then edit DOMAIN
 docker network create caddy   # once, if it does not exist yet
 docker compose up -d --build
 ```
