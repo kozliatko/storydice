@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-24
+
+### Added
+
+- Fullscreen play mode: an optional setting that switches the dice tray to fullscreen on the first roll, plus a manual fullscreen button on the tray. Uses the Fullscreen API with a CSS overlay fallback.
+
 ## [1.0.0] - 2026-11-24
 
 ### Added
@@ -23,5 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Embedded Baloo 2 and Nunito fonts, so the app makes no external requests.
 - Dockerfile, nginx configuration and a Docker Compose file for caddy-docker-proxy.
 
-[Unreleased]: https://github.com/kozliatko/storydice/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/kozliatko/storydice/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/kozliatko/storydice/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/kozliatko/storydice/releases/tag/v1.0.0

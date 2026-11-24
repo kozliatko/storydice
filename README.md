@@ -29,6 +29,7 @@ An offline-first storytelling dice game. Roll the dice, look at the pictures, an
   - *Theme*: a random theme to build the story around.
   - *Surprise*: dice start face-down and are revealed one at a time.
 - **Optional timer** (60, 120 or 180 seconds) with an audible alert.
+- **Fullscreen play**: an optional mode where the first roll switches the dice tray to fullscreen (with a native Fullscreen API and a CSS fallback for iPhone). Relay and theme controls stay available in fullscreen.
 - An option to show picture names.
 - **Languages**: Slovak, English, German, Hungarian, Czech, Spanish and French. The language is detected from the browser and can be changed manually.
 - **Light and dark theme**, keyboard accessible, respects `prefers-reduced-motion`.
