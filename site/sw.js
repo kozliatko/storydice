@@ -1,4 +1,4 @@
-// Kocky príbehov – service worker. The version is a hash of all app files,
+// Story Dice (Kocky príbehov) service worker. The version is a hash of all app files,
 // so every deploy with changed files gets a fresh cache.
 const VERSION = "b4227dd314";
 const CACHE = "kocky-" + VERSION;
