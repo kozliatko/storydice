@@ -1,4 +1,19 @@
+<p align="center">
+  <img src=".github/assets/social-preview.png" alt="Story Dice: roll the dice, build a story" width="640">
+</p>
+
 # Story Dice
+
+[![Release](https://img.shields.io/github/v/release/kozliatko/storydice)](https://github.com/kozliatko/storydice/releases)
+[![License: MIT](https://img.shields.io/github/license/kozliatko/storydice)](LICENSE)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![nginx](https://img.shields.io/badge/nginx-009639?logo=nginx&logoColor=white)
+![Caddy](https://img.shields.io/badge/Caddy-1F88C0?logo=caddy&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
 An offline-first storytelling dice game. Roll the dice, look at the pictures, and build one story out of them. Works as an installable PWA on phones, tablets and desktops.
 
@@ -19,6 +34,16 @@ An offline-first storytelling dice game. Roll the dice, look at the pictures, an
 - **Light and dark theme**, keyboard accessible, respects `prefers-reduced-motion`.
 - **Offline**: a service worker caches the whole app after the first visit.
 - **No dependencies, no tracking, no external requests.** Fonts are embedded.
+
+## Tech stack
+
+| Technology | Used for |
+|---|---|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) | The whole app: plain HTML, CSS and vanilla JavaScript in a single file, no framework and no build step |
+| ![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white) | Web app manifest and a service worker for installability and offline use |
+| ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | `update-sw.py`, a standard-library script that regenerates the service worker cache version |
+| ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![nginx](https://img.shields.io/badge/nginx-009639?logo=nginx&logoColor=white) | Container image serving the static files |
+| ![Caddy](https://img.shields.io/badge/Caddy-1F88C0?logo=caddy&logoColor=white) | Reverse proxy and automatic HTTPS via caddy-docker-proxy |
 
 ## Project layout
 
