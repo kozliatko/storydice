@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    networks:
+      - default
+      - caddy
+    labels:
+      caddy: dice.kozliatko.sk
+      caddy.reverse_proxy: "{{upstreams}}"
+      caddy.encode: gzip zstd
+
+networks:
+  caddy:
+    external: true

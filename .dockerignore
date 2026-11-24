@@ -1,0 +1,9 @@
+.env
+.git
+.gitignore
+.dockerignore
+docker-compose.yml
+Dockerfile
+README.md
+*.zip
+site/update-sw.py
