@@ -1,6 +1,6 @@
 // Kocky príbehov – service worker. The version is a hash of all app files,
 // so every deploy with changed files gets a fresh cache.
-const VERSION = "1e0d59adf8";
+const VERSION = "483393180c";
 const CACHE = "kocky-" + VERSION;
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icons/apple-touch-icon.png", "./icons/favicon.svg", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png"];
 

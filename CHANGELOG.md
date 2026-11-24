@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Storytelling dice game as an installable, offline-first PWA.
 - Four picture sets (classic, universal, travel, household) with 54 pictures each.
 - Game modes: classic, relay (2–9 players), theme and surprise.
-- 3, 6 or 9 dice, re-rolling of a single die, roll history and optional picture names.
+- 3, 6 or 9 dice, re-rolling of a single die and optional picture names.
 - Optional timer (60, 120, 180 seconds) with an audible alert.
 - User interface in Slovak, English, German, Hungarian, Czech, Spanish and French.
 - Light and dark theme, keyboard support and reduced-motion support.
