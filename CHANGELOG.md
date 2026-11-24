@@ -23,5 +23,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Embedded Baloo 2 and Nunito fonts, so the app makes no external requests.
 - Dockerfile, nginx configuration and a Docker Compose file for caddy-docker-proxy.
 
-[Unreleased]: https://github.com/OWNER/REPO/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/OWNER/REPO/releases/tag/v1.0.0
+[Unreleased]: https://github.com/kozliatko/storydice/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/kozliatko/storydice/releases/tag/v1.0.0
